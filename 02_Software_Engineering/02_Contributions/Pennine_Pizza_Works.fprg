@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.18">
+    <attributes>
+        <attribute name="name" value="Pennine Pizza Works"/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value="Simple pizza ordering flowchart"/>
+        <attribute name="saved" value="2026-10-14 11:30:00 AM"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="customerName" type="String" array="False" size=""/>
+            <declare name="pizzaChoice" type="Integer" array="False" size=""/>
+            <declare name="quantity" type="Integer" array="False" size=""/>
+            <declare name="price" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+
+            <output expression="&quot;Welcome to Pennine Pizza Works&quot;" newline="True"/>
+            <output expression="&quot;Enter your name:&quot;" newline="True"/>
+            <input variable="customerName"/>
+
+            <output expression="&quot;Choose a pizza: 1 = Margherita (£8), 2 = Pepperoni (£10), 3 = Vegetarian (£9)&quot;" newline="True"/>
+            <input variable="pizzaChoice"/>
+
+            <if expression="pizzaChoice = 1">
+                <then>
+                    <assign variable="price" expression="8"/>
+                </then>
+                <else>
+                    <if expression="pizzaChoice = 2">
+                        <then>
+                            <assign variable="price" expression="10"/>
+                        </then>
+                        <else>
+                            <if expression="pizzaChoice = 3">
+                                <then>
+                                    <assign variable="price" expression="9"/>
+                                </then>
+                                <else>
+                                    <assign variable="price" expression="0"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+
+            <if expression="price = 0">
+                <then>
+                    <output expression="&quot;Invalid pizza choice. Please run the program again.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Enter quantity:&quot;" newline="True"/>
+                    <input variable="quantity"/>
+                    <if expression="quantity &gt; 0">
+                        <then>
+                            <assign variable="total" expression="price * quantity"/>
+                            <output expression="&quot;----- PIZZA BILL -----&quot;" newline="True"/>
+                            <output expression="&quot;Customer: &quot; &amp; customerName" newline="True"/>
+                            <output expression="&quot;Quantity: &quot; &amp; quantity" newline="True"/>
+                            <output expression="&quot;Total cost: £&quot; &amp; total" newline="True"/>
+                            <output expression="&quot;Thank you for your order!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Error: Quantity must be greater than zero.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
