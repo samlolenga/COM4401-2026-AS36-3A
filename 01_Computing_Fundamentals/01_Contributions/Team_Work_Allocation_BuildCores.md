@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Team name** | |
+| **Team name** |Group 3 |
 | **Repository** | |
 | **Submission date** | Friday 23 October 2026 |
 | **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
@@ -16,10 +16,10 @@
 
 | Member | Role / build owned | Qty | Budget each | Workstation level |
 |--------|--------------------|-----|-------------|-------------------|
-| | Administrative Assistant | 3 | £850 | Basic office hardware |
-| | Project Manager | 2 | £1,250 | Business workstation |
-| | Architect / CAD Designer | 5 | £2,350 | CAD build with dedicated GPU |
-| | 3D Visualisation Specialist | 2 | £3,600 | High-performance rendering |
+|SHAYKH | Administrative Assistant | 3 | £850 | Basic office hardware |
+|SAM | Project Manager | 2 | £1,250 | Business workstation |
+|HAMZA | Architect / CAD Designer | 5 | £2,350 | CAD build with dedicated GPU |
+|SAIRA | 3D Visualisation Specialist | 2 | £3,600 | High-performance rendering |
 
 > Each member owns one role build: create the base unit on BuildCores.com, cost the peripherals from reputable UK retailers, and justify each choice for the role. Total allocated hardware budget £24,000, plus £2,000 contingency = **£26,000 team maximum**.
 
