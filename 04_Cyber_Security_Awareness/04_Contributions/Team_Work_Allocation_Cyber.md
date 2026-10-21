@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Team name** | |
+| **Team name** |Group 3 |
 | **Repository** | |
 | **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
 
@@ -15,11 +15,11 @@
 
 | Section / theme | Responsible member(s) | Draft ready by |
 |-----------------|-----------------------|----------------|
-| Section 1: Password hygiene | | |
-| Section 2: Two-factor authentication | | |
-| Section 3: Phishing recognition | | |
-| Section 4: Safe use of devices | | |
-| Section 5: Public Wi-Fi | | |
+| Section 1: Password hygiene |SAM | |
+| Section 2: Two-factor authentication |SAM | |
+| Section 3: Phishing recognition |HAMZA | |
+| Section 4: Safe use of devices |SHAYKH | |
+| Section 5: Public Wi-Fi |SAIRA | |
 | Introduction & conclusion (whole team) | | |
 | Contents page & reference list (compile last) | | |
 
