@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Team name** | |
+| **Team name** | Group 3 |
 | **Repository** | |
 | **Submission date** | Friday 23 October 2026 |
 | **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
@@ -16,10 +16,10 @@
 
 | Member | Area owned | What they'll deliver |
 |--------|------------|----------------------|
-| | LAN design | Internal network diagram (devices, switches, layout) |
-| | External / internet connection | Router, gateway and connection to the wider network |
-| | IP addressing | Addressing scheme, subnet plan and device table |
-| | Protocols & simulation | Protocol explanations and the working Filius model |
+|SAIRA | LAN design | Internal network diagram (devices, switches, layout) |
+|SAM | External / internet connection | Router, gateway and connection to the wider network |
+|HAMZA | IP addressing | Addressing scheme, subnet plan and device table |
+|SHAYKH | Protocols & simulation | Protocol explanations and the working Filius model |
 
 > Add or remove a row for a 3- or 5-person team. The addressing plan and the Filius build depend on the LAN design, so agree the design first. Shared tasks (final test evidence, ethics/professional write-up, report merge) can be added as extra rows.
 
